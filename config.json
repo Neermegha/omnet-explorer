@@ -1,0 +1,24 @@
+{
+    "params": [
+        {
+            "keys": ["sim-time-limit"],
+            "values" : ["120s", "12222222s"]
+        },
+        {
+            "keys": ["result-dir"],
+            "values": ["somewhere"]
+        },
+        {
+            "keys": ["**.numnodes"],
+            "values": ["2"]
+        },
+        {
+            "keys": ["**.applicationlayer",
+                "**.app.datagenerationdistribution",
+                "**.app.datagenerationinterval",
+                "**.app.datasizeinbytes"],
+            "values": [["KHeraldApp", "1", "8000s", "127"],
+                     ["KHeraldApp", "1", "80s", "127"]]
+        }
+    ]
+}
